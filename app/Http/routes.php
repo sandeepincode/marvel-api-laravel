@@ -13,4 +13,10 @@
 
 Route::group(['middleware' => 'web'], function () {
     Route::controller('/', 'apiController');
+    Route::get('/404',function (){
+        dd('404');
+    });
 });
+
+Route::get('/404',['as'=>'404','uses'=>'ErrorHandlerController@errorCode404']);
+Route::get('/405',['as'=>'405','uses'=>'ErrorHandlerController@errorCode405']);
