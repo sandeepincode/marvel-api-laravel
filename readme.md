@@ -4,6 +4,11 @@ The application validates all inputs and sends requests to the appropriate Marve
 # Example use case
 If you enter "hulk" and select comics, you get the top 40 comics ordered by the on sale date.
 <br/>
+# Files To Note:
+1. Route: app/Http/routes.php
+2. Controller: app/Http/Controllers/apiController.php
+3. View: resources/views/main.blade.php
+
 # How to run
 1. 'composer install' or 'php artisan install'
 2. 'composer serve' or 'php artisan serve'
