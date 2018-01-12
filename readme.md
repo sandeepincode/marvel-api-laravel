@@ -13,7 +13,7 @@ If you enter "hulk" and select comics, you get the top 40 comics ordered by the 
 1. 'composer install' or 'php artisan install'
 2. 'composer serve' or 'php artisan serve'
 3. The application will be running on <a href>http://localhost:8000/
-\n
+
 # Current Status
 Status: Working <br/>
 Missing: Tests and Error 404 Route.
