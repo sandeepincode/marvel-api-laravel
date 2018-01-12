@@ -17,3 +17,5 @@ If you enter "hulk" and select comics, you get the top 40 comics ordered by the 
 # Current Status
 Status: Working <br/>
 Missing: Tests and Error 404 Route.
+
+![Alt text](/example.png?raw=true "Title")
