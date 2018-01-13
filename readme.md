@@ -9,7 +9,7 @@ An example output can be found in "Marvel-API.csv".
 
 
 
-# Files To Note:
+# Files To Note
 1. Route: app/Http/routes.php
 2. Controller: app/Http/Controllers/apiController.php
 3. View: resources/views/main.blade.php
@@ -20,10 +20,10 @@ An example output can be found in "Marvel-API.csv".
 2. 'composer serve' or 'php artisan serve'
 3. The application will be running on <a href>http://localhost:8000/
 
-#Testing
+# Testing
 Run this command after install: ./vendor/bin/phpunit
 <br/>
 
-#Preview
+# Preview
 
 ![Alt text](/example.png?raw=true "Title")
