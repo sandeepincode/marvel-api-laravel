@@ -9,7 +9,7 @@ An example output can be found in "Marvel-API.csv".
 
 
 
-# Files To Note:
+# Files To Note
 1. Route: app/Http/routes.php
 2. Controller: app/Http/Controllers/apiController.php
 3. View: resources/views/main.blade.php
