@@ -29,9 +29,8 @@ class apiController extends Controller
             'error' => null,
             'response' => Input::all()
         );
-
-        if ( isset($data['response']['character'])
-            && $data['response']['type'] ) {
+        if ( !empty($data['response']['character'])
+            && !empty($data['response']['type'] )) {
 
             $url  = 'gateway.marvel.com/v1/public/characters?name=' .self::cleanString($data['response']['character']);
             $url .= self::urlParams();
